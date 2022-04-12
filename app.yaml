@@ -1,0 +1,12 @@
+runtime: python27
+service: first-angular
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: /
+  static_files: dist/first-angular-project/index.html
+  upload: dist/first-angular-project/index.html
+
+- url: /
+  static_dir: dist/first-angular-project
