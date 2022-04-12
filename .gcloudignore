@@ -1,0 +1,7 @@
+.angular
+.vscode
+src
+node_modules
+venv
+backend/blueprints/__pycache__
+backend/common/__pycache__

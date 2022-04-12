@@ -1,5 +1,5 @@
 runtime: python27
-service: first-angular
+service: first-angular1
 api_version: 1
 threadsafe: true
 

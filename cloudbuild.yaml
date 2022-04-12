@@ -1,0 +1,7 @@
+steps:
+- name: node:16-alpine3.14
+  entrypoint: npm 
+  dir: 'first-angular/'
+  args: ['run','deploy']
+- name: 'gcr.io/cloud-builders/gcloud'
+  args: ['-q','app','deploy']
